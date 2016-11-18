@@ -10,6 +10,13 @@
 		5200B19D1DDF0A190003A4A4 /* SwiftJose.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5200B1931DDF0A190003A4A4 /* SwiftJose.framework */; };
 		5200B1A21DDF0A190003A4A4 /* SwiftJoseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5200B1A11DDF0A190003A4A4 /* SwiftJoseTests.swift */; };
 		5200B1A41DDF0A190003A4A4 /* SwiftJose.h in Headers */ = {isa = PBXBuildFile; fileRef = 5200B1961DDF0A190003A4A4 /* SwiftJose.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5200B1AF1DDF0C3F0003A4A4 /* SwCrypt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5200B1AE1DDF0C3F0003A4A4 /* SwCrypt.framework */; };
+		5200B1B11DDF0C7C0003A4A4 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5200B1B01DDF0C7C0003A4A4 /* Nimble.framework */; };
+		5200B1B31DDF0C840003A4A4 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5200B1B21DDF0C840003A4A4 /* Quick.framework */; };
+		5200B1B81DDF13790003A4A4 /* Base64.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5200B1B41DDF13790003A4A4 /* Base64.swift */; };
+		5200B1B91DDF13790003A4A4 /* SwiftJose.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5200B1B51DDF13790003A4A4 /* SwiftJose.swift */; };
+		5200B1BA1DDF13790003A4A4 /* SwiftJweDecryption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5200B1B61DDF13790003A4A4 /* SwiftJweDecryption.swift */; };
+		5200B1BB1DDF13790003A4A4 /* SwiftJweEncryption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5200B1B71DDF13790003A4A4 /* SwiftJweEncryption.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +36,13 @@
 		5200B19C1DDF0A190003A4A4 /* SwiftJoseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftJoseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5200B1A11DDF0A190003A4A4 /* SwiftJoseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftJoseTests.swift; sourceTree = "<group>"; };
 		5200B1A31DDF0A190003A4A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5200B1AE1DDF0C3F0003A4A4 /* SwCrypt.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwCrypt.framework; path = "Carthage/Checkouts/SwCrypt/build/Debug-iphoneos/SwCrypt.framework"; sourceTree = "<group>"; };
+		5200B1B01DDF0C7C0003A4A4 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = "Carthage/Checkouts/Nimble/build/Debug-iphoneos/Nimble.framework"; sourceTree = "<group>"; };
+		5200B1B21DDF0C840003A4A4 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = "Carthage/Checkouts/Quick/build/Debug-iphoneos/Quick.framework"; sourceTree = "<group>"; };
+		5200B1B41DDF13790003A4A4 /* Base64.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Base64.swift; sourceTree = "<group>"; };
+		5200B1B51DDF13790003A4A4 /* SwiftJose.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftJose.swift; sourceTree = "<group>"; };
+		5200B1B61DDF13790003A4A4 /* SwiftJweDecryption.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftJweDecryption.swift; sourceTree = "<group>"; };
+		5200B1B71DDF13790003A4A4 /* SwiftJweEncryption.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftJweEncryption.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5200B1AF1DDF0C3F0003A4A4 /* SwCrypt.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -43,6 +58,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5200B1B31DDF0C840003A4A4 /* Quick.framework in Frameworks */,
+				5200B1B11DDF0C7C0003A4A4 /* Nimble.framework in Frameworks */,
 				5200B19D1DDF0A190003A4A4 /* SwiftJose.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -56,6 +73,7 @@
 				5200B1951DDF0A190003A4A4 /* SwiftJose */,
 				5200B1A01DDF0A190003A4A4 /* SwiftJoseTests */,
 				5200B1941DDF0A190003A4A4 /* Products */,
+				5200B1AD1DDF0C3E0003A4A4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -72,6 +90,10 @@
 			isa = PBXGroup;
 			children = (
 				5200B1961DDF0A190003A4A4 /* SwiftJose.h */,
+				5200B1B41DDF13790003A4A4 /* Base64.swift */,
+				5200B1B51DDF13790003A4A4 /* SwiftJose.swift */,
+				5200B1B61DDF13790003A4A4 /* SwiftJweDecryption.swift */,
+				5200B1B71DDF13790003A4A4 /* SwiftJweEncryption.swift */,
 				5200B1971DDF0A190003A4A4 /* Info.plist */,
 			);
 			path = SwiftJose;
@@ -84,6 +106,16 @@
 				5200B1A31DDF0A190003A4A4 /* Info.plist */,
 			);
 			path = SwiftJoseTests;
+			sourceTree = "<group>";
+		};
+		5200B1AD1DDF0C3E0003A4A4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5200B1B21DDF0C840003A4A4 /* Quick.framework */,
+				5200B1B01DDF0C7C0003A4A4 /* Nimble.framework */,
+				5200B1AE1DDF0C3F0003A4A4 /* SwCrypt.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,6 +180,7 @@
 				TargetAttributes = {
 					5200B1921DDF0A190003A4A4 = {
 						CreatedOnToolsVersion = 8.1;
+						LastSwiftMigration = 0810;
 						ProvisioningStyle = Automatic;
 					};
 					5200B19B1DDF0A190003A4A4 = {
@@ -196,6 +229,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5200B1B91DDF13790003A4A4 /* SwiftJose.swift in Sources */,
+				5200B1BB1DDF13790003A4A4 /* SwiftJweEncryption.swift in Sources */,
+				5200B1B81DDF13790003A4A4 /* Base64.swift in Sources */,
+				5200B1BA1DDF13790003A4A4 /* SwiftJweDecryption.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,17 +357,20 @@
 		5200B1A81DDF0A190003A4A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = SwiftJose/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rmtmckenzie.SwiftJose;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -338,11 +378,13 @@
 		5200B1A91DDF0A190003A4A4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = SwiftJose/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -356,6 +398,8 @@
 		5200B1AB1DDF0A190003A4A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = SwiftJoseTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rmtmckenzie.SwiftJoseTests;
@@ -367,6 +411,8 @@
 		5200B1AC1DDF0A190003A4A4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = SwiftJoseTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rmtmckenzie.SwiftJoseTests;
@@ -394,6 +440,7 @@
 				5200B1A91DDF0A190003A4A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5200B1AA1DDF0A190003A4A4 /* Build configuration list for PBXNativeTarget "SwiftJoseTests" */ = {
 			isa = XCConfigurationList;
@@ -402,6 +449,7 @@
 				5200B1AC1DDF0A190003A4A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

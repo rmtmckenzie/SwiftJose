@@ -2,7 +2,7 @@
 //  SwiftJose.h
 //  SwiftJose
 //
-//  Created by test on 18/11/2016.
+//  Created by rmtmckenzie on 16/11/2016.
 //  Copyright © 2016 rmtmckenzie. All rights reserved.
 //
 

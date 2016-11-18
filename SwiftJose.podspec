@@ -12,4 +12,5 @@ Pod::Spec.new do |spec|
   spec.source_files = "SwiftJose/**/*.{h, swift}"
 
   ## SwCrypt dependency??
+  spec.dependency = "SwCrypt"
 end
